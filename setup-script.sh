@@ -2,12 +2,12 @@
 
 # Variables
 # Cloud Lab users should use the existing Resource group name, such as, resourceGroup="cloud-demo-153430" 
-resourceGroup="acdnd-c4-exercise"
+resourceGroup="trident-resource"
 location="westus"
 osType="UbuntuLTS"
-vmssName="udacity-vmss"
-adminName="udacityadmin"
-storageAccount="udacitydiag$RANDOM"
+vmssName="trident-vmss"
+adminName="tridentadmin"
+storageAccount="tridentdiag$RANDOM"
 bePoolName="$vmssName-bepool"
 lbName="$vmssName-lb"
 lbRule="$lbName-network-rule"
